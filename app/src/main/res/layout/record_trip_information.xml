@@ -17,7 +17,7 @@
         android:id="@+id/editText_vessel_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/vessel_reg"
+        android:hint="@string/vessel_reg"
         android:layout_below="@+id/editText_vessel_name"
         />
 
@@ -25,7 +25,7 @@
         android:id="@+id/editText_observer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/observer"
+        android:hint="@string/observer"
         android:layout_below="@+id/editText_vessel_reg"
         />
 
@@ -33,7 +33,7 @@
         android:id="@+id/editText_skipper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/skipper"
+        android:hint="@string/skipper"
         android:layout_below="@+id/editText_observer"
         />
 
@@ -77,6 +77,21 @@
         android:text="@string/enter_port"
         android:visibility="gone"
         android:layout_below="@+id/spinner_port"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_specie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_region"
+        />
+    <EditText
+        android:id="@+id/editText_specieshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_port"
+        android:visibility="gone"
+        android:layout_below="@+id/spinner_region"
         />
 
 
