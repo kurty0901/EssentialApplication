@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_vessel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vessel_name"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_vessel_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vessel_reg"
+        android:layout_below="@+id/editText_vessel_name"
+        />
+
+    <EditText
+        android:id="@+id/editText_observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/observer"
+        android:layout_below="@+id/editText_vessel_reg"
+        />
+
+    <EditText
+        android:id="@+id/editText_skipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/skipper"
+        android:layout_below="@+id/editText_observer"
+        />
+
+    <Button
+        android:id="@+id/button_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_skipper"
+        style="?android:spinnerStyle"
+        android:text="@string/select_a_date"
+        android:onClick="openDatePicker"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_datepicker"
+        />
+
+    <EditText
+        android:id="@+id/editText_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_port"
+        android:visibility="gone"
+        android:layout_below="@+id/button_datepicker"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_port"
+        />
+
+    <EditText
+        android:id="@+id/editText_regionshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_port"
+        android:visibility="gone"
+        android:layout_below="@+id/spinner_port"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

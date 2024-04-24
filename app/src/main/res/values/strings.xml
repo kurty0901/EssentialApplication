@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EssentialApplication</string>
+    <string name="vessel_name">Vessel Name</string>
+    <string name="vessel_reg">Vessel Reg</string>
+    <string name="observer">Observer</string>
+    <string name="skipper">Skipper</string>
+    <string name="select_a_date">Select a Date</string>
+    <string name="enter_port">Enter port</string>
+</resources>
