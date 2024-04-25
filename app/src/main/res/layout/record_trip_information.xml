@@ -58,7 +58,7 @@
         android:id="@+id/editText_other"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enter_port"
+        android:hint="@string/enter_port"
         android:visibility="gone"
         android:layout_below="@+id/button_datepicker"
         />
@@ -74,7 +74,7 @@
         android:id="@+id/editText_regionshow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enter_port"
+        android:hint="@string/enter_region"
         android:visibility="gone"
         android:layout_below="@+id/spinner_port"
         />
@@ -89,10 +89,22 @@
         android:id="@+id/editText_specieshow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/enter_port"
+        android:hint="@string/enter_specie"
         android:visibility="gone"
         android:layout_below="@+id/spinner_region"
         />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="100sp"
+        android:gravity="top"
+        android:hint="@string/text_additional_comments"
+        android:layout_below="@+id/editText_specieshow"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="30dp"
+        android:singleLine="false"
+        />
+
 
 
 

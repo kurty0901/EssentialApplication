@@ -6,4 +6,7 @@
     <string name="skipper">Skipper</string>
     <string name="select_a_date">Select a Date</string>
     <string name="enter_port">Enter port</string>
+    <string name="enter_region">Enter Region</string>
+    <string name="enter_specie">Enter Specie</string>
+    <string name="text_additional_comments">Additional Comments</string>
 </resources>
