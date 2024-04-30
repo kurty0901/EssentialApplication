@@ -9,4 +9,6 @@
     <string name="enter_region">Enter Region</string>
     <string name="enter_specie">Enter Specie</string>
     <string name="text_additional_comments">Additional Comments</string>
+    <string name="text_string_number">Enter a String Number</string>
+    <string name="text_soak_time">Soak Time</string>
 </resources>

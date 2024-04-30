@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    
 
     <EditText
         android:id="@+id/editText_vessel_name"
@@ -95,6 +96,7 @@
         />
 
     <EditText
+        android:id="@+id/additionalComments"
         android:layout_width="390dp"
         android:layout_height="100sp"
         android:gravity="top"
@@ -104,6 +106,14 @@
         android:layout_marginTop="30dp"
         android:singleLine="false"
         />
+
+    <Button
+        android:id="@+id/switchToStringButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/additionalComments"
+        />
+
 
 
 
